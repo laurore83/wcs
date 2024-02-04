@@ -1,0 +1,24 @@
+@import "mdb-react-ui-kit/dist/css/mdb.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "./home";
+@import "./navbar";
+@import "./equipe";
+@import "./equipepedago";
+@import "./carrousselleequipe";
+@import "./carrousselleequipepedago";
+@import "./galerie";
+@import "./partenaires";
+@import "./pelemele";
+@import "./photoGallerie";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 66px;
+  background-color: black;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}

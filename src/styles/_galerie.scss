@@ -1,0 +1,61 @@
+.container-galerie {
+  margin-top: 50px;
+}
+.galerie-txt {
+  color: white;
+  font-size: 45px;
+  text-align: end;
+  padding-bottom: 80px;
+}
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img-pelemele {
+  width: 100%;
+}
+.btn-photo {
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+}
+
+.modal {
+  --mdb-modal-bg: #000;
+
+  .modal-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    .cross-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 20px;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      z-index: 10;
+    }
+
+    .carousel-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+
+      img {
+        max-width: 90vw;
+        max-height: 90vh;
+      }
+    }
+  }
+}

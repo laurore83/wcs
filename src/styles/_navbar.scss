@@ -1,0 +1,9 @@
+.logo-navbar {
+  width: 40px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* Assurez-vous que la barre de navigation est au-dessus du contenu */
+}

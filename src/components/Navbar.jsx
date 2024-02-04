@@ -56,6 +56,9 @@ export default function App() {
             <MDBNavbarItem>
               <MDBNavbarLink href="/photo">Galerie Photos</MDBNavbarLink>
             </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/thanks">Thanks</MDBNavbarLink>
+            </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>

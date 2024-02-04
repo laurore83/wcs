@@ -3,12 +3,18 @@ import ReactSimplyCarousel from "react-simply-carousel";
 
 function CarrousselleEquipe() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-
-  const imgEquipe = [
-    { id: 1, img: "src/assets/equipe/lulu.png" },
-    { id: 2, img: "src/assets/equipe/moi.png" },
-    { id: 3, img: "src/assets/equipe/toitoine.png" },
-  ];
+  let imgEquipe = new Array(22);
+  for (let i = 0; i < imgEquipe.length; i += 1) {
+    imgEquipe[i] = {
+      url: `src/assets/equipe/IMG_${i + 1}.jpg`,
+      id: i + 1,
+    };
+  }
+  // const imgEquipe = [
+  //   { id: 1, img: "src/assets/equipe/lulu.png" },
+  //   { id: 2, img: "src/assets/equipe/moi.png" },
+  //   { id: 3, img: "src/assets/equipe/toitoine.png" },
+  // ];
   return (
     <div>
       <ReactSimplyCarousel
@@ -64,11 +70,11 @@ function CarrousselleEquipe() {
         easing="linear"
       >
         {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
-        {imgEquipe.map((img) => (
-          <div key={img.id} style={{ width: 200, height: 300 }}>
+        {imgEquipe.map((item, index) => (
+          <div key={index} style={{ width: 200, height: 300 }}>
             <img
-              src={img.img}
-              alt={`Slide${img.id}`}
+              src={item.url}
+              alt={item.url}
               style={{
                 maxWidth: "100%",
                 maxHeight: "100%",

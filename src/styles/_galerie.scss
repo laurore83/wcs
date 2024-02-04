@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin-inline: 10px;
 }
 .img-pelemele {
   width: 100%;
@@ -42,6 +43,14 @@
   margin-top: 30px;
   background-color: white;
   color: black;
+}
+.ripple-surface {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 30px;
 }
 .container-slide {
   margin-top: 20px;
@@ -86,5 +95,19 @@ h2 {
         max-height: 90vh;
       }
     }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .gallerie-sous-title {
+    padding-top: 40px;
+  }
+  .gallerie-composant {
+    display: flex;
+    justify-content: space-around;
+  }
+  .gallerie-photo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }

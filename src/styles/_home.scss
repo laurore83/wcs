@@ -17,3 +17,25 @@
 .promo-home {
   width: 100%;
 }
+@media only screen and (min-width: 768px) {
+  .logo-wcs-home {
+    width: 20%;
+  }
+  .header-home {
+    display: flex;
+    align-items: center;
+  }
+  .home-promo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .promo-home {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 40%;
+    .logo-wcs-home {
+      width: 10%;
+    }
+  }
+}

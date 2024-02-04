@@ -6,7 +6,6 @@ import "./styles/index.scss";
 
 import Home from "./pages/Home.jsx";
 import PhotoGallerie from "./pages/PhotoGallerie.jsx";
-import VideoGallerie from "./pages/VideoGallerie.jsx";
 import Slideshow from "./pages/SlideShow.jsx";
 
 const router = createBrowserRouter([
@@ -19,10 +18,7 @@ const router = createBrowserRouter([
         path: "/photo",
         element: <PhotoGallerie />,
       },
-      {
-        path: "/video",
-        element: <VideoGallerie />,
-      },
+
       {
         path: "/",
         element: <Home />,

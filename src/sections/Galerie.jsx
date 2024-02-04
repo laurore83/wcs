@@ -3,10 +3,12 @@ import Videos from "../components/Videos";
 
 export default function Galerie() {
   return (
-    <div id="gallerie" className="container-galerie">
+    <div className="container-galerie">
       <h2 className="galerie-txt">Let’s go to the show</h2>
-      <Photos />
-      <Videos />
+      <div className=" gallerie-composant">
+        <Photos />
+        <Videos />
+      </div>
       <img
         className="logo-wcs-home"
         src="src/assets/wcs.logo.png"

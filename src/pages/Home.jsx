@@ -7,24 +7,25 @@ export default function Home() {
   return (
     <>
       <div id="home" className="container-home">
-        <img
-          className="logo-wcs-home"
-          src="src/assets/wcs.logo.png"
-          alt="logo.wcs"
-        />
-        <h2 className="home-txt">
-          Promo JS WCS Bordeaux 2023/2024 <br />
-          Découvrez les artistes !
-        </h2>
-        <h1 className="home-title">
-          Promo JS <br />
-          2023/2024
-        </h1>
-        <img
-          className="promo-home"
-          src="src/assets/promo.home.png"
-          alt="promo.home"
-        />
+        <div className=" header-home">
+          <img
+            className="logo-wcs-home"
+            src="src/assets/wcs.logo.png"
+            alt="logo.wcs"
+          />
+          <h1 className="home-title">
+            Promo JS WCS <br />
+            Bordeaux 2023/2024
+          </h1>
+        </div>
+        <div className="home-promo">
+          <h2 className="home-txt">Découvrez les artistes !</h2>
+          <img
+            className="promo-home"
+            src="src/assets/promo.home.png"
+            alt="promo.home"
+          />
+        </div>
         <div id="equipe" className="container-equipe">
           <Equipe />
         </div>
@@ -34,7 +35,7 @@ export default function Home() {
         <div id="partenaires" className="container-partenaires">
           <Partenaires />
         </div>
-        <div id="galerie" className="container-galerie">
+        <div id="gallerie" className="container-galerie">
           <Galerie />
         </div>
       </div>

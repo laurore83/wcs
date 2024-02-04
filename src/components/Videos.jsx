@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import ModalVideo from "./ModalVideo";
 
 export default function Videos() {
   return (
@@ -19,9 +19,7 @@ export default function Videos() {
             allowfullscreen
           ></iframe>
         </div>
-        <Link to="/video" className="btn-photo">
-          Visionner
-        </Link>
+        <ModalVideo />
       </div>
     </div>
   );

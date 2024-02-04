@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Modal from "../components/modal";
 
 export default function PhotoGallerie() {
@@ -9,15 +8,13 @@ export default function PhotoGallerie() {
   const shuffledArray = photos.sort(() => 0.5 - Math.random());
 
   return (
-    <div>
-      <div>photo</div>
-      <div>show</div>
-      <Link to="/diapo" className="btn-photo">
-        {" "}
-        Diapo
-      </Link>
+    <div className="container-gallerie-photo">
+      <div className="home-title">PHOTOS</div>
+      <h2 className="gallerie-sous-title">DIAPO</h2>
       <Modal />
-      <div>
+      <h2 className="gallerie-sous-title">GALLERIE</h2>
+
+      <div className="gallerie-photo">
         {shuffledArray.map((img) => (
           <div key={img} style={{ width: 200, height: 300 }}>
             <img

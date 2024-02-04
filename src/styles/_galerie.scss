@@ -5,7 +5,26 @@
   color: white;
   font-size: 45px;
   text-align: end;
-  padding-bottom: 80px;
+  margin: 0;
+}
+.gallerie-sous-title {
+  display: flex;
+  text-align: start;
+  padding-top: 80px;
+}
+.container-gallerie-photo {
+  margin-inline: 20px;
+}
+.container-gallerie-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 20px;
+}
+.gallerie-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .photos {
   display: flex;
@@ -24,7 +43,17 @@
   background-color: white;
   color: black;
 }
-
+.container-slide {
+  margin-top: 20px;
+}
+.slides {
+  max-width: 100vw;
+  max-height: 100vw;
+}
+h2 {
+  margin-block: 20px;
+  color: white;
+}
 .modal {
   --mdb-modal-bg: #000;
 

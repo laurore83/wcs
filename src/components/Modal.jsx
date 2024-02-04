@@ -16,7 +16,7 @@ export default function Modal() {
   return (
     <>
       <MDBBtn color="dark" onClick={toggleOpen}>
-        DIAPO
+        {"LETS ' GO TO THE SHOW"}
       </MDBBtn>
       <MDBModal open={basicModal} setOpen={setBasicModal} tabIndex="-1">
         <MDBModalDialog size="fullscreen">

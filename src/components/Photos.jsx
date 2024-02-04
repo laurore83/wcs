@@ -4,7 +4,9 @@ import Pelemele from "./Pelemele";
 export default function Photos() {
   return (
     <div>
-      Photos
+      <div className="gallerie-sous-title">
+        <h2> Photos</h2>
+      </div>
       <div className="photos">
         <Pelemele />
 

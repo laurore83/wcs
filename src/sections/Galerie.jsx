@@ -3,7 +3,7 @@ import Videos from "../components/Videos";
 
 export default function Galerie() {
   return (
-    <div className="container-galerie">
+    <div id="gallerie" className="container-galerie">
       <h2 className="galerie-txt">Let’s go to the show</h2>
       <Photos />
       <Videos />

@@ -3,6 +3,7 @@ import ReactSimplyCarousel from "react-simply-carousel";
 
 function CarrousselleEquipe() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+
   const imgEquipe = [
     { id: 1, img: "src/assets/equipe/lulu.png" },
     { id: 2, img: "src/assets/equipe/moi.png" },

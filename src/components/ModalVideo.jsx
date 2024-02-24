@@ -5,6 +5,7 @@ import {
   MDBModalDialog,
   MDBModalContent,
   MDBModalBody,
+  MDBModalHeader,
 } from "mdb-react-ui-kit";
 
 export default function ModalVideo() {
@@ -14,16 +15,18 @@ export default function ModalVideo() {
 
   return (
     <>
-      <MDBBtn color="dark" onClick={toggleOpen}>
+      <MDBBtn className="btn-video" color="dark" onClick={toggleOpen}>
         {"let's go to the show!!!"}
       </MDBBtn>
       <MDBModal open={basicModal} setOpen={setBasicModal} tabIndex="-1">
         <MDBModalDialog size="fullscreen">
           <MDBModalContent>
-            <MDBModalBody>
+            <MDBModalHeader>
               <div className="cross-close" color="none" onClick={toggleOpen}>
                 X
-              </div>{" "}
+              </div>
+            </MDBModalHeader>
+            <MDBModalBody>
               <iframe
                 width="100%"
                 height="100%"

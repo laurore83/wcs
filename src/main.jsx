@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import PhotoGallerie from "./pages/PhotoGallerie.jsx";
 import Slideshow from "./pages/SlideShow.jsx";
 import Thanks from "./pages/Thanks.jsx";
+import Videos from "./components/Videos.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/diapo",
         element: <Slideshow />,
+      },
+      {
+        path: "/videos",
+        element: <Videos />,
       },
       {
         path: "/thanks",

@@ -39,22 +39,12 @@ export default function App() {
                 Accueil
               </MDBNavbarLink>
             </MDBNavbarItem>
+
             <MDBNavbarItem>
-              <MDBNavbarLink href="#equipe">Equipe</MDBNavbarLink>
+              <MDBNavbarLink href="/videos">Vidéos</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#equipepedago">
-                Equipe Pédagogique
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="#partenaires">Partenaires</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="#gallerie">Galerie</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="/photo">Galerie Photos</MDBNavbarLink>
+              <MDBNavbarLink href="/photo">Photos</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href="/thanks">Thanks</MDBNavbarLink>
